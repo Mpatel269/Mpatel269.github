@@ -1,7 +1,11 @@
  .header-container {
-     width: 100vw;
+     width: calc(100vw - 20px);
      height: 75px;
      background-color: white;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
 
 .navbar-container {
@@ -12,7 +16,7 @@
 
 .hero-image-container {
     height: 650px;
-    width: 100vw;
+    width: calc(100vw - 20px);
     background-image: url(../images/olomouc-townhall.jpg);
     background-size: cover;
     opacity: 0.85;
@@ -34,7 +38,7 @@
     height: 100%;
 
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .pepa-logo-header {
     height: 100%;
@@ -46,6 +50,10 @@
 
 .socials-container {
     height: 100%;
+    padding-right: 10px;
+
+    display: flex;
+    align-items: center
 }
 
 .facebook-icon {
@@ -54,4 +62,16 @@
 
 .instagram-icon {
     height: ;
+}
+
+.menu-container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 45px;
+    padding-left: 10px;
 }
