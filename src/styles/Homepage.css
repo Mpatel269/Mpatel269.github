@@ -4,3 +4,8 @@
      background-color: blue;
  }
 
+.navbar-container {
+    width: 100vw;
+     height: 75px;
+     background-color: teal;
+}
