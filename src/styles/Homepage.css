@@ -1,11 +1,31 @@
  .header-container {
      width: 100vw;
      height: 50px;
-     background-color: blue;
+     background-color: white;
  }
 
 .navbar-container {
     width: 100vw;
      height: 75px;
-     background-color: teal;
+     background-color: rgb(34, 34, 34);
+}
+
+.hero-image-container {
+    height: 650px;
+    width: 100vw;
+    background-image: url(../images/olomouc-townhall.jpg);
+    background-size: cover;
+    opacity: 0.85;
+}
+
+.homepage-body {
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(252, 245, 245);
+}
+
+.footer-container {
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(80, 80, 80);
 }
