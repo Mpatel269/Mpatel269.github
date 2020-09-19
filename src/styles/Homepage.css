@@ -1,6 +1,6 @@
  .header-container {
      width: 100vw;
-     height: 50px;
+     height: 75px;
      background-color: white;
  }
 
@@ -28,4 +28,30 @@
     height: 200px;
     width: 100vw;
     background-color: rgb(80, 80, 80);
+}
+
+.logo-container {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.pepa-logo-header {
+    height: 100%;
+}
+
+.upol-fac-header {
+    height: 100%;
+}
+
+.socials-container {
+    height: 100%;
+}
+
+.facebook-icon {
+    height: ;
+}
+
+.instagram-icon {
+    height: ;
 }
