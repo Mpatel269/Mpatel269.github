@@ -10,8 +10,14 @@
 
 .navbar-container {
     width: 100vw;
-     height: 50px;
-     background-color: rgb(34, 34, 34);
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    }
+
+.navbar-container-inactive > .nav-item {
+    width: 100vw;
+    height: 0px;
+    font-size: 0px;
 }
 
 .hero-image-container {
@@ -108,4 +114,11 @@
 .nav-item-arrow {
     padding-left: 5px;
     opacity: 0.5;
+}
+
+.welcome-text {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 48px;
 }
