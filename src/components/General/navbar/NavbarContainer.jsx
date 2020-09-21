@@ -1,9 +1,12 @@
 import React from 'react';
 import NavItem from './NavItem';
+import {useSelector} from 'react-redux';
 
-const NavbarContainer = () => {
+const NavbarContainer = (props) => {
+    const showMenu = useSelector((state) => state.menuActive);
+
     return(
-        <div className = "navbar-container">
+        <div className = {showMenu ? 'navbar-container-active' :'navbar-container-inactive'}>
             <NavItem navItem = 'Sport'/>
             <NavItem navItem = 'Societies' />
             <NavItem navItem = 'Education' />

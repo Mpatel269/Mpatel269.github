@@ -1,5 +1,5 @@
 const defaultState = {
-    showMenu: false,
+    menuActive: false,
 };
 
 const reducer = (state = defaultState, action) => {
@@ -7,7 +7,7 @@ const reducer = (state = defaultState, action) => {
         case "MENU_HANDLER":
             return{
                 ...state,
-                showMenu: !state.showMenu
+                menuActive: !state.menuActive
             }
         default:
             return state;

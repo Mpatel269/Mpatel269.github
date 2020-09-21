@@ -1,5 +1,5 @@
  .header-container {
-     width: calc(100vw - 20px);
+     width: calc(100vw - 17px);
      height: 80px;
      background-color: white;
 
@@ -8,43 +8,89 @@
      align-items: center;
 
      z-index: 3;
+     position: relative;
+    overflow-x: hidden;
  }
 
-.navbar-container {
-    width: 100vw;
+ .navbar-container-active{
+    width: calc(100vw - 17px);
     height: 50px;
     background-color: rgb(34, 34, 34); 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
-    margin-top: -50px;
-    z-index: -1;
+    animation-name: slidedown;
+    animation-duration: 0.5s;
+
+    margin-top: 0px;
+    opacity: 100%;
     position: absolute;
-    opacity: 0;
+    z-index: 2;
+    overflow-x: hidden;
     }
 
-.navbar-container-inactive > .nav-item {
-    width: 100vw;
-    height: 0px;
-    font-size: 0px;
+.navbar-container-inactive {
+    width: calc(100vw - 17px);
+    height: 50px;
+    background-color: rgb(34, 34, 34); 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    animation-name: slideup;
+    animation-duration: 0.5s;
+
+    margin-top: -50px;
+    z-index:1;
+    position: absolute;
+    opacity: 0;
+    overflow-x: hidden;
+    }
+
+@keyframes slidedown {
+    from {
+        margin-top: -50px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes slideup {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: -50px;
+    }
 }
 
 .hero-image-container {
-    width: 100vw;
+    width: calc(100vw - 17px);
     height: 650px;
     background-image: url(../images/olomouc-townhall.jpg);
     background-size: cover;
     opacity: 0.85;
+    overflow-x: hidden;
 }
 
 .homepage-body {
     height: 300px;
-    width: 100vw;
+    width: calc(100vw - 17px);
     background-color: rgb(252, 245, 245);
+
+    overflow-x: hidden;
 }
 
 .footer-container {
     height: 200px;
-    width: 100vw;
+    width: calc(100vw - 17px);
     background-color: rgb(80, 80, 80);
+    
+    overflow-x: hidden;
 }
 
 .logo-container {
@@ -85,6 +131,8 @@
 
     display: flex;
     align-items: center;
+
+    z-index: 3;
 }
 
 .menu-icon {
@@ -94,14 +142,6 @@
 
 .menu-icon:hover {
     color: rgb(180, 17, 62);
-}
-
-.navbar-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-
 }
 
 .nav-item {
