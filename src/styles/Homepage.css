@@ -6,12 +6,19 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+
+     z-index: 3;
  }
 
 .navbar-container {
     width: 100vw;
     height: 50px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34); 
+
+    margin-top: -50px;
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
     }
 
 .navbar-container-inactive > .nav-item {
