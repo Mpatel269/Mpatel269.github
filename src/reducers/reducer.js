@@ -1,5 +1,6 @@
 const defaultState = {
     menuActive: false,
+    dropDownStatus: [false,false,false,false,false,false,false],
 };
 
 const reducer = (state = defaultState, action) => {
