@@ -7,12 +7,13 @@ const NavbarContainer = (props) => {
 
     return(
         <div className = {showMenu ? 'navbar-container-active' :'navbar-container-inactive'}>
-            <NavItem navItem = 'Sport'/>
+            <NavItem navItem = 'Your Union' />
+            <NavItem navItem = 'Sports'/>
             <NavItem navItem = 'Societies' />
             <NavItem navItem = 'Education' />
-            <NavItem navItem = 'Guide to Olomouc' />
             <NavItem navItem = 'Events' />
-            <NavItem navItem = 'Your Union' />
+            <NavItem navItem = 'Guide to Olomouc' />
+            <NavItem navItem = 'Support' />
             <NavItem navItem = 'Contact Us' />
         </div>
     )

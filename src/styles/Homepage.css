@@ -173,3 +173,15 @@
     font-weight: bold;
     font-size: 48px;
 }
+
+.generic-dropdown {
+    min-height: 50px;
+    width: max-content;
+    overflow-x: hidden;
+
+    background-color: blue;
+}
+
+.hidden {
+    display: none;
+}
