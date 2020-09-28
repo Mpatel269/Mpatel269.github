@@ -3,7 +3,7 @@ import DropNavItem from './DropNavItem';
 
 const SportsDropdown = () => {
     return(
-        <div className= 'generic-dropdown hidden'>
+        <div className= 'generic-dropdown'>
                 <DropNavItem dropNavItem='Football'/>
                 <DropNavItem dropNavItem='Badminton'/>
                 <DropNavItem dropNavItem='Basketball'/>

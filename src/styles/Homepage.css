@@ -14,11 +14,7 @@
 
  .navbar-container-active{
     width: calc(100vw - 17px);
-    height: 50px;
-    background-color: rgb(34, 34, 34); 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    background-color: rgb(25, 24, 24); 
 
     animation-name: slidedown;
     animation-duration: .5s;
@@ -27,12 +23,39 @@
     opacity: 100%;
     position: absolute;
     z-index: 2;
-    overflow-x: hidden;
     }
+
+.navbar-container-active ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container-active ul li{
+    float: left;
+    list-style: none;
+}
+
+.navbar-container-active ul li div{
+    padding: 7px 15px;
+    display: block;
+}
+
+.navbar-container-active ul ul {
+    position: absolute;
+    left: -99999px;
+}
+
+.navbar-container-active ul li:hover ul{
+    left: auto;
+}
+
+.navbar-container-active ul li ul li{
+    float: none;
+}
+
 
 .navbar-container-inactive {
     width: calc(100vw - 17px);
-    height: 50px;
     background-color: rgb(34, 34, 34); 
     display: flex;
     justify-content: flex-start;
@@ -46,6 +69,34 @@
     opacity:0;
     position: absolute;
     overflow-x: hidden;
+    }
+
+    .navbar-container-inactive ul{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar-container-inactive ul li{
+        float: left;
+        list-style: none;
+    }
+    
+    .navbar-container-inactive ul li div{
+        padding: 7px 15px;
+        display: block;
+    }
+    
+    .navbar-container-inactive ul ul {
+        position: absolute;
+        left: -99999px;
+    }
+    
+    .navbar-container-inactive ul li:hover ul{
+        left: auto;
+    }
+    
+    .navbar-container-inactive ul li ul li{
+        float: none;
     }
 
 @keyframes slidedown {
@@ -168,6 +219,7 @@
 
 .nav-item:hover {
     background-color: rgb(180, 17, 62);
+    cursor: pointer;
 }
 
 .nav-item-arrow {
@@ -184,12 +236,10 @@
 
 .generic-dropdown {
     min-height: 50px;
+    min-width: 100%;
     width: max-content;
     overflow-x: hidden;
 
-    background-color: blue;
+    background-color: rgb(125, 125, 125);
 }
 
-.hidden {
-    display: none;
-}
