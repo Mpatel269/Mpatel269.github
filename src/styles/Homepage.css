@@ -49,6 +49,16 @@
     left: auto;
 }
 
+.navbar-container-active ul li:hover {
+    background-color: rgb(180, 17, 62);
+    cursor: pointer;
+}
+
+.navbar-container-active ul li:active {
+    background-color: rgb(180, 17, 62);
+
+}
+
 .navbar-container-active ul li ul li{
     float: none;
 }
@@ -217,10 +227,6 @@
     align-items: center;
 }
 
-.nav-item:hover {
-    background-color: rgb(180, 17, 62);
-    cursor: pointer;
-}
 
 .nav-item-arrow {
     padding-left: 5px;
@@ -240,6 +246,17 @@
     width: max-content;
     overflow-x: hidden;
 
-    background-color: rgb(125, 125, 125);
+    background-color: rgb(54, 54, 54);
+    color: rgb(252, 237, 237);
+    font-size: 15px;
+    padding: 0 20px;
 }
 
+.generic-dropdown:hover {
+    cursor: pointer;
+    background-color:rgb(180, 17, 62);
+}
+
+.nav-drop-arrow {
+    padding-left: 15px;
+}
