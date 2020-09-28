@@ -95,7 +95,15 @@
     background-color: rgb(80, 80, 80);
     
     overflow-x: hidden;
+
+    display: flex;
+    flex-direction: row;
 }
+
+.footer-menu {
+    display: flex;
+}
+
 
 .logo-container {
     height: 100%;

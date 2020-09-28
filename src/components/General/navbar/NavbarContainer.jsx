@@ -8,10 +8,7 @@ const NavbarContainer = (props) => {
 
     return(
         <div className = {showMenu ? 'navbar-container-active' :'navbar-container-inactive'}>
-            <NavItem navItem = 'Your Union' >
-                <UnionDropdown />
-            </NavItem>
-
+            <NavItem navItem = 'Your Union' />
             <NavItem navItem = 'Sports'/>
             <NavItem navItem = 'Societies' />
             <NavItem navItem = 'Education' />
