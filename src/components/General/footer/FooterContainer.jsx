@@ -12,7 +12,7 @@ const Footercontainer = () => {
                 <p>Moodle: cvt.upol.cz/moodle/</p>
                 <p>Feedback and Complaints</p>
                 <p>FAQs</p>
-                <p>Out of hours Support</p>
+                <p>Out-of-Hours Support</p>
             </div>
             <div className='footer-follow-us'>
                 <h1>Follow us:</h1>
