@@ -36,7 +36,6 @@
 }
 
 .navbar-container-active ul li div{
-    padding: 7px 15px;
     display: block;
 }
 
@@ -47,16 +46,6 @@
 
 .navbar-container-active ul li:hover ul{
     left: auto;
-}
-
-.navbar-container-active ul li:hover {
-    background-color: rgb(180, 17, 62);
-    cursor: pointer;
-}
-
-.navbar-container-active ul li:active {
-    background-color: rgb(180, 17, 62);
-
 }
 
 .navbar-container-active ul li ul li{
@@ -269,7 +258,7 @@
     height: 100%;
     color: rgb(252, 237, 237);
     font-size: 15px;
-    padding: 0 20px;
+    padding: 7px 15px;
 
     display: flex;
     align-items: center;
@@ -299,14 +288,25 @@
     background-color: rgb(54, 54, 54);
     color: rgb(252, 237, 237);
     font-size: 15px;
-    padding: 0 20px;
 }
 
-.generic-dropdown:hover {
+.drop-nav-item{
+    padding: 7px 15px;
     cursor: pointer;
-    background-color:rgb(180, 17, 62);
+}
+.drop-nav-item:hover{
+    background-color: rgb(180, 17, 62)
+}
+
+.nav-item:hover{
+    background-color: rgb(180, 17, 62)    
 }
 
 .nav-drop-arrow {
     padding-left: 15px;
+}
+
+.navbar-container-active ul li:active {
+    background-color: rgb(180, 17, 62);
+
 }
