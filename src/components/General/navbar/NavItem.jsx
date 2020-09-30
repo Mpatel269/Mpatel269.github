@@ -1,9 +1,10 @@
 import React from 'react';
 
-const NavItem = () => {
+const NavItem = (props) => {
     return(
         <div className = "nav-item">
-
+            {props.navItem}
+            <i class="fas fa-caret-down nav-item-arrow"></i>
         </div>
     )
 };

@@ -1,0 +1,291 @@
+ $secondary-color: rgb(180, 17, 62);
+ 
+ /************************************ HEADER ******************************************/
+ 
+ .header-container {
+     width: calc(100vw - 17px);
+     height: 80px;
+     background-color: white;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     z-index: 3;
+     position: relative;
+ }
+ 
+ .logo-container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.pepa-logo-header {
+    height: 100%;
+}
+
+.upol-fac-header {
+    height: 100%;
+}
+
+.socials-container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-icon {
+    font-size: 45px;
+    margin-left: 15px;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+ .facebook-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.instagram-icon {
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+}
+
+.menu-container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    z-index: 3;
+}
+
+ /************************************ NAVBAR ******************************************/
+ 
+ .navbar-container-active{
+    width: calc(100vw - 17px);
+    background-color: rgb(25, 24, 24); 
+
+    animation-name: slidedown;
+    animation-duration: .5s;
+
+    margin-top: 0px;
+    opacity: 100%;
+    position: absolute;
+    z-index: 2;
+    }
+
+.navbar-container-active ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container-active ul li{
+    float: left;
+    list-style: none;
+}
+
+.navbar-container-active ul ul {
+    position: absolute;
+    left: -99999px;
+}
+
+.navbar-container-active ul li:hover ul{
+    left: auto;
+}
+
+.navbar-container-active ul li ul li{
+    float: none;
+}
+
+
+.navbar-container-inactive {
+    animation-name: slideup;
+    animation-duration: .5s;
+
+    margin-top: -50px;
+    opacity:0;
+    position: absolute;
+    }
+
+    .navbar-container-inactive ul{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar-container-inactive ul li{
+        float: left;
+        list-style: none;
+    }
+    
+    .navbar-container-inactive ul ul {
+        position: absolute;
+        left: -99999px;
+    }
+
+
+@keyframes slidedown {
+    from {
+        margin-top: -50px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0px;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideup {
+    from {
+        margin-top: 0px;
+        opacity: 100%;
+    }
+
+    to {
+        margin-top: -50px;
+        opacity: 0;
+    }
+}
+
+.nav-item {
+    height: 100%;
+    color: rgb(252, 237, 237);
+    font-size: 15px;
+    padding: 7px 15px;
+}
+
+
+.nav-item-arrow {
+    padding-left: 5px;
+    opacity: 0.5;
+}
+
+.generic-dropdown {
+    min-height: 50px;
+    min-width: 100%;
+    width: max-content;
+    overflow-x: hidden;
+
+    background-color: rgb(54, 54, 54);
+    color: rgb(252, 237, 237);
+    font-size: 15px;
+}
+
+.drop-nav-item{
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.drop-nav-item:hover{
+    background-color: rgb(180, 17, 62)
+}
+
+.nav-item:hover{
+    background-color: rgb(180, 17, 62)    
+}
+
+.nav-drop-arrow {
+    padding-left: 15px;
+}
+
+ /************************************ HERO ******************************************/
+
+.hero-image-container {
+    width: calc(100vw - 17px);
+    height: 765px;
+    background-image: url(../images/olomouc-townhall.jpg);
+    background-size: cover;
+    opacity: 0.85;
+    overflow-x: hidden;
+}
+
+.homepage-body {
+    height: 300px;
+    width: calc(100vw - 17px);
+    background-color: rgb(252, 245, 245);
+
+    overflow-x: hidden;
+}
+
+.welcome-text {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(180, 17, 62, 0.85);   
+}
+
+ /************************************ FOOTER ******************************************/
+
+.footer-container {
+    min-height: 275px;
+    width: calc(100vw - 17px);
+    background-color: rgb(80, 80, 80);
+    color: white;
+    
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-container h1{
+    font-size: 24px;
+}
+
+.footer-follow-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-follow-us h1{
+    width: 100%;
+}
+
+.footer-icons {
+    font-size: 48px;
+    padding: 15px;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-top-links p{
+    padding: 2px;
+    margin: 0;
+}
+
+.footer-bottom {
+    height: 20px;
+    width: 100vw;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p:hover {
+    color: rgb(204, 146, 162);
+    cursor: pointer;
+}
+
+.footer-container i:hover{
+    color: rgb(114, 156, 130);
+    cursor: pointer;
+}
+
+
+
