@@ -18,7 +18,7 @@ const NavbarContainer = (props) => {
     return(
         <div className = {showMenu ? 'navbar-container-active' :'navbar-container-inactive'}>
             <ul>
-                <li><NavItem navItem = 'Your Union' />
+                <li><NavItem navItem = 'Your Union' path='yourunion'/>
                     <ul>
                         <li><UnionDropdown/></li>
                     </ul>

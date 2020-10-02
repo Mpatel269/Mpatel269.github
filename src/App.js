@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 
-import './App.css';
 import ContactUsPage from './pages/ContactUs/ContactUsPage';
 import EducationPage from './pages/Education/EducationPage';
 import EventsPage from './pages/Events/EventsPage';
