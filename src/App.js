@@ -29,9 +29,27 @@ import VolleyballPg from './pages/Sports/VolleyballPg';
 import OtherPg from './pages/Sports/OtherPg';
 import HallofFamePg from './pages/Sports/HallofFamePg';
 import BasketballPg from './pages/Sports/BasketballPg';
-
-
-
+import NewSocietyPg from './pages/Societies/NewSocietyPg';
+import AcademicSocietiesPg from './pages/Societies/AcademicSocietiesPg';
+import NonAcademicSocietiesPg from './pages/Societies/NonAcademicSocietiesPg';
+import ResourcesPg from './pages/Education/ResourcesPg';
+import ResearchPg from './pages/Education/ResearchPg';
+import YearBreakdownPg from './pages/Education/YearBreakdownPg';
+import OnlineTrainingPg from './pages/Education/OnlineTrainingPg';
+import FoodPg from './pages/GuideToOlomouc/FoodPg';
+import HealthPg from './pages/GuideToOlomouc/HealthPg';
+import ThingsToDoPg from './pages/GuideToOlomouc/ThingsToDoPg';
+import Travelpg from './pages/GuideToOlomouc/Travelpg';
+import UsefulAppsPg from './pages/GuideToOlomouc/UsefulAppsPg';
+import AdviceServicePg from './pages/Support/AdviceServicePg';
+import HowtoAdultPg from './pages/Support/HowtoAdultPg';
+import HowtoStudentPg from './pages/Support/HowtoStudentPg';
+import OutHoursPg from './pages/Support/OutHoursPg';
+import PeerMentorPg from './pages/Support/PeerMentorPg';
+import WhatsOnPg from './pages/Events/WhatsOnPg';
+import SuggestIdeaPg from './pages/Events/SuggestIdeaPg';
+import ContactDetailsPg from './pages/ContactUs/ContactDetailsPg';
+import FeedbackComplaintsPg from './pages/ContactUs/FeedbackComplaintsPg';
 
 function App() {
   return (
@@ -78,82 +96,82 @@ function App() {
             <SportsPage />
           </Route>
           <Route path = '/societies/academic'>
-            <SocietiesPage />
+            <AcademicSocietiesPg />
           </Route>
           <Route path = '/societies/non-academic'>
-            <SocietiesPage />
+            <NonAcademicSocietiesPg />
           </Route>
           <Route path = '/societies/new-society'>
-            <SocietiesPage />
+            <NewSocietyPg />
           </Route>
           <Route path = '/societies'>
             <SocietiesPage />
           </Route>
           <Route path = '/education/resources'>
-            <EducationPage />
+            <ResourcesPg />
           </Route>
           <Route path = '/education/research'>
-            <EducationPage />
+            <ResearchPg />
           </Route>
           <Route path = '/education/online-training'>
-            <EducationPage />
+            <OnlineTrainingPg />
           </Route>
           <Route path = '/education/year-breakdown'>
-            <EducationPage />
+            <YearBreakdownPg />
           </Route>
           <Route path = '/education'>
             <EducationPage />
           </Route>
           <Route path = '/events/whats-on'>
-            <EventsPage />
+            <WhatsOnPg />
           </Route>
           <Route path = '/events/suggest-idea'>
-            <EventsPage />
+            <SuggestIdeaPg />
           </Route>
           <Route path = '/events'>
             <EventsPage />
           </Route>
           <Route path = '/guidetoolomouc/food'>
-            <GuidePage />
+            <FoodPg />
           </Route>
           <Route path = '/guidetoolomouc/health'>
-            <GuidePage />
+            <HealthPg />
           </Route>
           <Route path = '/guidetoolomouc/travel'>
-            <GuidePage />
+            <Travelpg />
           </Route>
           <Route path = '/guidetoolomouc/useful-apps'>
-            <GuidePage />
+            <UsefulAppsPg />
           </Route>
           <Route path = '/guidetoolomouc/things-to-do'>
-            <GuidePage />
+            <ThingsToDoPg />
           </Route>
           <Route path = '/guidetoolomouc'>
             <GuidePage />
           </Route>
           <Route path = '/support/advice'>
-            <SupportPage />
+            <AdviceServicePg />
           </Route>
           <Route path = '/support/peer-mentor'>
-            <SupportPage />
+            <PeerMentorPg />
           </Route>
           <Route path = '/support/how-to-adult'>
-            <SupportPage />
+            <HowtoAdultPg />
           </Route>
           <Route path = '/support/how-to-student'>
-            <SupportPage />
+            <HowtoStudentPg />
           </Route>
           <Route path = '/support/out-of-hours'>
-            <SupportPage />
+            <OutHoursPg />
           </Route>
           <Route path = '/support'>
             <SupportPage />
           </Route>
           <Route path = '/contactus/details'>
-            <ContactUsPage />
+            <ContactDetailsPg />
           </Route>
           <Route path = '/contactus/feedback'>
-            <ContactUsPage />
+            <FeedbackComplaintsPg />
           </Route>
           <Route path = '/contactus'>
             <ContactUsPage />
