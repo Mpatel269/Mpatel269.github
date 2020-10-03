@@ -39,7 +39,7 @@ import OnlineTrainingPg from './pages/Education/OnlineTrainingPg';
 import FoodPg from './pages/GuideToOlomouc/FoodPg';
 import HealthPg from './pages/GuideToOlomouc/HealthPg';
 import ThingsToDoPg from './pages/GuideToOlomouc/ThingsToDoPg';
-import Travelpg from './pages/GuideToOlomouc/Travelpg';
+import TravelPg from './pages/GuideToOlomouc/TravelPg';
 import UsefulAppsPg from './pages/GuideToOlomouc/UsefulAppsPg';
 import AdviceServicePg from './pages/Support/AdviceServicePg';
 import HowtoAdultPg from './pages/Support/HowtoAdultPg';
@@ -138,7 +138,7 @@ function App() {
             <HealthPg />
           </Route>
           <Route path = '/guidetoolomouc/travel'>
-            <Travelpg />
+            <TravelPg />
           </Route>
           <Route path = '/guidetoolomouc/useful-apps'>
             <UsefulAppsPg />
