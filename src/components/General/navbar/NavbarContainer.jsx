@@ -23,37 +23,37 @@ const NavbarContainer = (props) => {
                         <li><UnionDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Sports'/>
+                <li><NavItem navItem = 'Sports' path='sports'/>
                     <ul>
                         <li><SportsDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Societies' />
+                <li><NavItem navItem = 'Societies' path='societies' />
                     <ul>
                         <li><SocietiesDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Education' />
+                <li><NavItem navItem = 'Education'  path='education'/>
                     <ul>
                         <li><EducationDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Events' />
+                <li><NavItem navItem = 'Events'  path='events'/>
                     <ul>
                         <li><EventsDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Guide to Olomouc' />
+                <li><NavItem navItem = 'Guide to Olomouc'  path='guidetoolomouc'/>
                     <ul>
                         <li><GuideDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Support' />
+                <li><NavItem navItem = 'Support'  path='support'/>
                     <ul>
                         <li><SupportDropdown/></li>
                     </ul>
                 </li>
-                <li><NavItem navItem = 'Contact Us' />
+                <li><NavItem navItem = 'Contact Us'  path='contactus'/>
                     <ul>
                         <li><ContactDropdown/></li>
                     </ul>

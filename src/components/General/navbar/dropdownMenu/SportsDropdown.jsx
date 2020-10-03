@@ -4,13 +4,13 @@ import DropNavItem from './DropNavItem';
 const SportsDropdown = () => {
     return(
         <div className= 'generic-dropdown'>
-                <DropNavItem dropNavItem='Football'/>
-                <DropNavItem dropNavItem='Badminton'/>
-                <DropNavItem dropNavItem='Basketball'/>
-                <DropNavItem dropNavItem='Cricket'/>
-                <DropNavItem dropNavItem='Volleyball'/>
-                <DropNavItem dropNavItem='Other'/>
-                <DropNavItem dropNavItem='Hall of Fame'/>
+                <DropNavItem dropNavItem='Football' path='sports/football'/>
+                <DropNavItem dropNavItem='Badminton' path='sports/badminton'/>
+                <DropNavItem dropNavItem='Basketball' path='sports/basketball'/>
+                <DropNavItem dropNavItem='Cricket' path='sports/cricket'/>
+                <DropNavItem dropNavItem='Volleyball' path='sports/volleyball'/>
+                <DropNavItem dropNavItem='Other' path='sports/other'/>
+                <DropNavItem dropNavItem='Hall of Fame' path='sports/hall-of-fame'/>
         </div>
     )
 };

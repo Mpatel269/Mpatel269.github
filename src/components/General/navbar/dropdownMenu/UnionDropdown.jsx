@@ -4,10 +4,10 @@ import DropNavItem from './DropNavItem';
 const UnionDropdown = () => {
     return(
         <div className= 'generic-dropdown'>
-            <DropNavItem dropNavItem='Pepa Team'/>
-            <DropNavItem dropNavItem='Elections'/>
-            <DropNavItem dropNavItem='Room Bookings'/>
-            <DropNavItem dropNavItem='Alumni'/>
+            <DropNavItem dropNavItem='Pepa Team' path='/yourunion/pepa-team'/>
+            <DropNavItem dropNavItem='Elections' path='/yourunion/elections'/>
+            <DropNavItem dropNavItem='Room Bookings' path='/yourunion/room-booking'/>
+            <DropNavItem dropNavItem='Alumni' path='/yourunion/alumni'/>
         </div>
     )
 };
