@@ -18,6 +18,20 @@ import SocietiesPage from './pages/Societies/SocietiesPage';
 import SportsPage from './pages/Sports/SportsPage';
 import SupportPage from './pages/Support/SupportPage';
 import YourUnionPage from './pages/YourUnion/YourUnionPage';
+import PepaTeamPg from './pages/YourUnion/PepaTeamPg';
+import ElectionsPg from './pages/YourUnion/ElectionsPg';
+import RoomBookingPg from './pages/YourUnion/RoomBookingPg';
+import AlumniPg from './pages/YourUnion/AlumniPg';
+import FootballPg from './pages/Sports/FootballPg';
+import BadmintonPg from './pages/Sports/BadmintonPg';
+import CricketPg from './pages/Sports/CricketPg';
+import VolleyballPg from './pages/Sports/VolleyballPg';
+import OtherPg from './pages/Sports/OtherPg';
+import HallofFamePg from './pages/Sports/HallofFamePg';
+import BasketballPg from './pages/Sports/BasketballPg';
+
+
+
 
 function App() {
   return (
@@ -25,40 +39,40 @@ function App() {
       <Router>
         <Switch>
         <Route path = '/yourunion/pepa-team'>
-            <YourUnionPage />
+            <PepaTeamPg />
           </Route>
           <Route path = '/yourunion/elections'>
-            <YourUnionPage />
+            <ElectionsPg />
           </Route>
           <Route path = '/yourunion/room-booking'>
-            <YourUnionPage />
+            <RoomBookingPg />
           </Route>
           <Route path = '/yourunion/alumni'>
-            <YourUnionPage />
+            <AlumniPg />
           </Route>
           <Route path = '/yourunion'>
             <YourUnionPage />
           </Route>
           <Route path = '/sports/football'>
-            <SportsPage />
+            <FootballPg />
           </Route>
           <Route path = '/sports/badminton'>
-            <SportsPage />
+            <BadmintonPg />
           </Route>
           <Route path = '/sports/basketball'>
-            <SportsPage />
+            <BasketballPg />
           </Route>
           <Route path = '/sports/cricket'>
-            <SportsPage />
+            <CricketPg />
           </Route>
           <Route path = '/sports/volleyball'>
-            <SportsPage />
+            <VolleyballPg />
           </Route>
           <Route path = '/sports/other'>
-            <SportsPage />
+            <OtherPg />
           </Route>
           <Route path = '/sports/hall-of-fame'>
-            <SportsPage />
+            <HallofFamePg />
           </Route>
           <Route path = '/sports'>
             <SportsPage />
