@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PepaTeam = () => {
+const PepaTeamBody = () => {
     return(
         <div>
             <h1>Your Committee 2020/2021</h1>
@@ -83,4 +83,4 @@ const PepaTeam = () => {
     )
 };
 
-export default PepaTeam;
+export default PepaTeamBody;
