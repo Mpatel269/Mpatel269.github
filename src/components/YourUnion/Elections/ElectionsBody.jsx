@@ -14,7 +14,6 @@ const ElectionsBody = () => {
                 </ul>
          
             <h2>Timeline:</h2>
-
                 <ul>
                     <li>
                     Campaigning starts from th July until rd July. – During this time candidates may campaign on social media to raise awareness for their position.
@@ -34,22 +33,48 @@ const ElectionsBody = () => {
             The candidates’ name, course of study and respective year in 2020/2021 has been mentioned.
 
             <h2>Rules for Campaign Period for candidates:</h2>
-            •   Manifestos will be posted online by PEPA for the student body to access on the th of July.
-            •  Candidates are only allowed to start campaigning on the th of July, 2020
-            •  Candidates are allowed to campaign in normal ways (word of mouth, posters etc.)
-            •  Campaigning with other candidates as groups/parties is strictly prohibited and will result in disqualification for all candidates involved in the group/party.
-            I.e. You are not allowed to share manifestos of each other.
-            • The Campaign Period will strictly close on the 23rd of July 11:59 pm CET
-            •  Strictly no campaigning by the candidate him/herself is allowed during the Voting Period. Incompliance will result in immediate disqualification.
+                <ul>
+                    <li>
+                        Manifestos will be posted online by PEPA for the student body to access on the th of July.
+                    </li>
+                    <li>
+                        Candidates are only allowed to start campaigning on the th of July, 2020
+                    </li>
+                    <li>
+                        Candidates are allowed to campaign in normal ways (word of mouth, posters etc.)
+                    </li>
+                    <li>
+                        Campaigning with other candidates as groups/parties is strictly prohibited and will result in disqualification for all candidates involved in the group/party.
+                        I.e. You are not allowed to share manifestos of each other.
+                    </li>
+                    <li>
+                        The Campaign Period will strictly close on the 23rd of July 11:59 pm CET
+                    </li>
+                    <li>
+                        Strictly no campaigning by the candidate him/herself is allowed during the Voting Period. Incompliance will result in immediate disqualification.
+                    </li>
+                </ul>
 
             <h2>
                 Each student may:
             </h2>
-            1.	Vote ONCE for EACH category (i.e. only one candidate per category)
-            With exception (of 2 votes) for:
-            •	Junior Associates 
-            •	Medical Representatives
-            2.	If a candidate is actively taking part, they May NOT vote for themselves.
+            <ol>
+                <li>
+                    Vote ONCE for EACH category (i.e. only one candidate per category)
+                    With exception (of 2 votes) for:
+                </li>
+                    <ul>
+                        <li>
+                            Junior Associates
+                        </li> 
+                        <li>
+                            Medical Representatives
+                        </li>
+                    </ul>
+                <li>
+                    If a candidate is actively taking part, they May NOT vote for themselves.
+                </li>
+            </ol>
 
         </div>
     )
