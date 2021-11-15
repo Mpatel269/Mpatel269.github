@@ -16,8 +16,8 @@ const Footercontainer = () => {
             </div>
             <div className='footer-follow-us'>
                 <h1>Follow us:</h1>
-                <i class="fab fa-facebook footer-icons"></i>
-                <i class="fab fa-instagram-square footer-icons"></i>
+                <a target="_blank" href="https://www.facebook.com/UPOLPEPA/"><i class="fab fa-facebook footer-icons" ></i></a>
+                <a target="_blank" href="https://www.instagram.com/pepa.up/?hl=en"><i class="fab fa-instagram-square footer-icons"></i></a>
             </div>
             <div className='footer-useful-info'>
                 <h1>Useful Info:</h1>

@@ -7,8 +7,8 @@ const ElectionsBody = () => {
                 <p>Elections for the following years PEPA committee take place over the course of the summer semester each year. During this time, you will have the opportunity to vote for the candidates that you feel would best represent your interests in front of the Dean, Vice Dean and University Senate. </p> 
                 <p>When? – Elections generally take place between x and y of Month x </p>
                 <p>How? – Votes may be cast in person or online</p>
-            <p>Who is eligible? :</p>
-                <ul>
+                <p>Who is eligible? :</p>
+                    <ul>
                     <li>Graduated 6th year Medics and 5th year Dentist may vote during the year of their graduation on the condition that they have a valid and working Portal ID and password.</li>
                     <li>All full-time students of the English Medical & Dental programmes at UPOL (Erasmus students are not eligible to vote)</li>
                 </ul>
@@ -58,7 +58,7 @@ const ElectionsBody = () => {
             <h2>
                 Each student may:
             </h2>
-            <ol>
+                <ol>
                 <li>
                     Vote ONCE for EACH category (i.e. only one candidate per category)
                     With exception (of 2 votes) for:

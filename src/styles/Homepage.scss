@@ -213,15 +213,6 @@
 
     overflow-x: hidden;
 }
-
-.welcome-text {
-    padding: 0px;
-    margin: 0px;
-    font-weight: bold;
-    font-size: 48px;
-    color: rgb(180, 17, 62, 0.85);   
-}
-
  /************************************ FOOTER ******************************************/
 
 .footer-container {
@@ -255,6 +246,7 @@
 .footer-icons {
     font-size: 48px;
     padding: 15px;
+    color: white;
 }
 
 .footer-menu {
