@@ -27,7 +27,7 @@ import BadmintonPg from './pages/Sports/BadmintonPg';
 import CricketPg from './pages/Sports/CricketPg';
 import VolleyballPg from './pages/Sports/VolleyballPg';
 import OtherPg from './pages/Sports/OtherPg';
-import HallofFamePg from './pages/Sports/HallofFamePg';
+import CompetitionsPg from './pages/Sports/CompetitionsPg';
 import BasketballPg from './pages/Sports/BasketballPg';
 import NewSocietyPg from './pages/Societies/NewSocietyPg';
 import AcademicSocietiesPg from './pages/Societies/AcademicSocietiesPg';
@@ -89,8 +89,8 @@ function App() {
           <Route path = '/sports/other'>
             <OtherPg />
           </Route>
-          <Route path = '/sports/hall-of-fame'>
-            <HallofFamePg />
+          <Route path = '/sports/competitions'>
+            <CompetitionsPg />
           </Route>
           <Route path = '/sports'>
             <SportsPage />
