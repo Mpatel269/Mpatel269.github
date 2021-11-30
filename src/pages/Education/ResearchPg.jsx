@@ -1,4 +1,5 @@
 import React from 'react';
+import ResearchBody from '../../components/Education/Research/ResearchBody';
 import Footercontainer from '../../components/General/footer/FooterContainer';
 import HeaderContainer from '../../components/General/Header/HeaderContainer';
 import NavbarContainer from '../../components/General/navbar/NavbarContainer';
@@ -8,7 +9,7 @@ const ResearchPg = () => {
         <div>
             <HeaderContainer/>
             <NavbarContainer/>
-            <h1>Under construction</h1>
+            <ResearchBody/>
             <Footercontainer/>
         </div>
     )
