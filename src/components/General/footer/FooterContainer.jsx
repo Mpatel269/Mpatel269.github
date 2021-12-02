@@ -3,16 +3,16 @@ import React from 'react';
 const Footercontainer = () => {
     return(
         <div className = "footer-container">
-            <div className='footer-top-links'>
-                <h1>Top Links:</h1>
-                <p>Univeristy website: upol.cz/en/</p>
-                <p>STAG: stag.upol.cz</p>
-                <p>Portal: portal.upol.cz/</p>
-                <p>Univeristy Email: cvt.upol.cz/en/email/</p>
-                <p>Moodle: cvt.upol.cz/moodle/</p>
-                <p>Feedback and Complaints</p>
-                <p>FAQs</p>
-                <p>Out-of-Hours Support</p>
+            <div className='footer-quick-links'>
+                <h1>Quick Links:</h1>
+                <a target="_blank" href="https://www.upol.cz/en/">UPOL website</a><br/>
+                <a target="_blank" href="https://stag.upol.cz/">STAG</a><br/>
+                <a  target="_blank" href="https://portal.upol.cz/"> Portal</a><br/>
+                <a  target="_blank" href="https://outlook.com/upol.cz"> Univeristy Email</a><br/>
+                <a  target="_blank" href="https://moodle.upol.cz"> Moodle</a><br/>
+                <a  target="_blank" href=""> Feedback and Complaints</a><br/>
+                <a  target="_blank" href=""> FAQs</a><br/>
+                <a  target="_blank" href=""> Out-of-Hours Support</a><br/><br/>
             </div>
             <div className='footer-follow-us'>
                 <h1>Follow us:</h1>
