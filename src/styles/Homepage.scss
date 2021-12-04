@@ -207,7 +207,7 @@
 }
 
 .homepage-body {
-    height: 300px;
+    height: auto;
     width: calc(100vw - 17px);
     background-color: rgb(252, 245, 245);
 
@@ -256,7 +256,7 @@
 .footer-quick-links a{
     padding: 2px;
     margin: 0;
-    
+    color: white;
 }
 
 .footer-bottom {
@@ -282,4 +282,14 @@
 }
 
 
+ /************************************ FEEDBACK AND COMPLAINTS ******************************************/
 
+ .feedback-complaints-body {
+     display: flex;
+     justify-content: center;
+ }
+
+ .feedback-form {
+     width: 100%;
+     padding-top: 50px;
+ }
