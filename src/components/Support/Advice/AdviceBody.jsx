@@ -1,11 +1,11 @@
 import React from 'react';
 
-const FootballBody = () => {
+const AdviceBody = () => {
     return(
         <div>
-            
+
         </div>
     )
 };
 
-export default FootballBody;
+export default AdviceBody;

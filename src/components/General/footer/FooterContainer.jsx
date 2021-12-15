@@ -11,8 +11,7 @@ const Footercontainer = () => {
                 <a target="_blank" rel="noopener noreferrer" href="https://outlook.com/upol.cz"> Univeristy Email</a><br/>
                 <a target="_blank" rel="noopener noreferrer" href="https://moodle.upol.cz"> Moodle</a><br/>
                 <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/9kKRGA5CCfNJHY4q6"> Feedback and Complaints</a><br/>
-                <a target="_blank" rel="noopener noreferrer" href=""> FAQs</a><br/>
-                <a target="_blank" rel="noopener noreferrer" href=""> Out-of-Hours Support</a><br/><br/>
+                <a target="_blank" rel="noopener noreferrer" href=""> FAQs</a><br/><br/><br/>
             </div>
             <div className='footer-follow-us'>
                 <h1>Follow us:</h1>
@@ -21,11 +20,11 @@ const Footercontainer = () => {
             </div>
             <div className='footer-useful-info'>
                 <h1>Useful Info:</h1>
-                <p>Current President: Hashim Vakil</p>
+                <p>President: Kameron Paul-Thaper</p>
                 <p>Email: pepa.palacky@gmail.com</p>
             </div>
             <div className='footer-bottom'>
-                <p>© 2020 Palacky English Program Association</p>
+                <p>© 2021 Palacky English Program Association</p>
             </div>
         </div>
     )
