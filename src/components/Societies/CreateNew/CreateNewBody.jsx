@@ -7,6 +7,8 @@ const CreateNewBody = () => {
                 <p>We're always looking for new ways to expand the extra-curricular activities at UPOL. If you're passionate about something that we don't already offer, it's possible to apply to create a new society - provided there is sufficient interest in the new society. Simply download the Application form below and send it back via email to pepa.palacky@gmail.com</p>
                 <p>New Society Application form</p>
                 <p>Society Guidelines</p>
+                <a href="https://docs.google.com/document/d/1jOSCUcfBJgZiX3Cv8GGpn6FY1nPUUvNJ/edit?usp=sharing&ouid=107134952830809371585&rtpof=true&sd=true"> click here to download application form</a>
+
         </div>
     )
 };
