@@ -1,62 +1,73 @@
 import React from 'react';
-import PepaLogo from '../../images/pepa-logo-new.png'
+import HomepageModal from './HomepageModal';
 
 const Hero = () => {
     return(
         
-        <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 bg-hero-image bg-cover">
-        <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-            <div class="relative px-4 py-6 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200 backdrop-filter backdrop-blur-lg">
-            <div class="max-w-md mx-auto">
-                <div class="flex justify-center">
-                <img src={PepaLogo} class="h-16 sm:h-36" alt=''/>
-                </div>
-                <div class="divide-y divide-gray-200">
-                <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                    <p>
-                        <strong>Palacky English Program Association (PEPA)</strong> is the official student 
-                        organisation for International students at Palacky. Our key aims include: 
-                    </p>
-                    <ul class="list-disc space-y-2">
-                    <li class="flex items-start">
-                        <span class="h-6 flex items-center sm:h-7">
-                        <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                        </svg>
-                        </span>
-                        <p class="ml-2">
-                        Helping students acclimatise to life at university
-                        </p>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="h-6 flex items-center sm:h-7">
-                        <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                        </svg>
-                        </span>
-                        <p class="ml-2">
-                        Connecting students with each other and Alumni
-                        </p>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="h-6 flex items-center sm:h-7">
-                        <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                        </svg>
-                        </span>
-                        <p class="ml-2">Facilitating Academic and Social support</p>
-                    </li>
-                    </ul>
-                    <p>We're here to improve your time at Palacky and improve communication between the student body and Staff of the Medical and Dental Faculty. </p>
-                    <p>
-                    <a href="/yourunion/pepa-team" class="font-bold text-cyan-600 hover:text-cyan-700"> Meet the Team &rarr; </a>
-                    </p>
-                </div>
-                <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                    <p>Check us out on <a class="font-bold text-blue-700" href="https://www.facebook.com/UPOLPEPA/"> Facebook </a> or <a class="font-bold text-blue-700" href="https://www.instagram.com/pepa.up/?hl=en">Instagram</a></p>
-                </div>
+        <div class="bg-gray-900 flex align justify-center">
+            <div class="absolute z-50">
+                <HomepageModal/>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-75 container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+            <div class="w-full lg:w-1/2">
+                <div class="lg:max-w-lg">
+                    <h1 class="font-medium tracking-wide text-white text-4xl">Find your premium new glasses exported from US</h1>
+                    <p class="mt-2 text-gray-300">We work with the best remunated glasses dealers in US to find your new glasses.</p>
+                    <div class="grid gap-6 mt-8 sm:grid-cols-2">
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">Premium selection</span>
+                        </div>
+
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">Insurance</span>
+                        </div>
+
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">All legal documents</span>
+                        </div>
+
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">From US glasses dealers</span>
+                        </div>
+
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">Payment Security</span>
+                        </div>
+
+                        <div class="flex items-center -px-3 text-gray-200">
+                            <svg class="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+
+                            <span class="mx-3">Fast shipping (+ Express)</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+    
+            <div class="flex items-center justify-center w-full h-96 lg:w-1/2">
+                <img class="object-cover w-full h-full max-w-2xl rounded-md" src="https://scontent-prg1-1.xx.fbcdn.net/v/t31.18172-8/18739235_1533598060024402_2042636813927187190_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=e3f864&_nc_ohc=kzwdKXV_OIYAX-P1nmV&_nc_ht=scontent-prg1-1.xx&oh=00_AT_9R2yuiqVtBsnGjOvds3HglAqe03H2n8H6VLf_KmdRoQ&oe=6201FE41" alt=""/>
             </div>
         </div>
         </div>

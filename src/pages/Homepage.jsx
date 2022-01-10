@@ -12,6 +12,7 @@ const Homepage = () => {
         <div>
             <HeaderContainer />
             <NavbarContainer />
+
             <Hero />
             <HomepageBody />
             <Footercontainer />
