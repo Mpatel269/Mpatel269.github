@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ac8c941.chunk.css",
+    "main.js": "/static/js/main.2e061c0a.chunk.js",
+    "main.js.map": "/static/js/main.2e061c0a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a71739f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a71739f.js.map",
+    "static/js/2.bc81bda7.chunk.js": "/static/js/2.bc81bda7.chunk.js",
+    "static/js/2.bc81bda7.chunk.js.map": "/static/js/2.bc81bda7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6ac8c941.chunk.css.map": "/static/css/main.6ac8c941.chunk.css.map",
+    "static/js/2.bc81bda7.chunk.js.LICENSE.txt": "/static/js/2.bc81bda7.chunk.js.LICENSE.txt",
+    "static/media/dental-rep-lower.90dc133e.jpeg": "/static/media/dental-rep-lower.90dc133e.jpeg",
+    "static/media/dental-rep-upper.ba204e77.jpeg": "/static/media/dental-rep-upper.ba204e77.jpeg",
+    "static/media/medic-rep-lower.e7c8636a.jpg": "/static/media/medic-rep-lower.e7c8636a.jpg",
+    "static/media/App.scss": "/static/media/olomouc-townhall.3b36a738.jpg",
+    "static/media/pepa-logo-new.3e7d7b4c.png": "/static/media/pepa-logo-new.3e7d7b4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a71739f.js",
+    "static/js/2.bc81bda7.chunk.js",
+    "static/css/main.6ac8c941.chunk.css",
+    "static/js/main.2e061c0a.chunk.js"
+  ]
+}
