@@ -9,7 +9,7 @@ const AcademicBody = () => {
             </div>
             {/* Body of page */}
             <div class="w-full h-full bg-gray-50">
-                <div class="pt-16 pl-4 bg-pepa-blue opacity-90">
+                <div class="pt-16 pl-4 bg-gray-800 ">
                     {/* Surgical Society */}
                     <div class="flex mb-8">
                         <div class="bg-clear">
