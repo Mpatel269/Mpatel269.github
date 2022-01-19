@@ -104,6 +104,74 @@ const NonAcademicBody = () => {
                             </p>
                         </details>
                     </div>
+                    {/* IFMSA */}
+                    <div class="flex pb-8">
+                    <div class="bg-clear">
+                            <div class="relative bg-white rounded-full">
+                                <div class="absolute z-10 bg-white filter rounded-full text-3xl p-3 flex text-center inline-flex items-center justify-center ">
+                                 <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <div class="absolute text-white bg-white filter blur rounded-full text-3xl p-3 flex text-center inline-flex items-center justify-center ">
+                                <i class="fas fa-balance-scale"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <details class="flex self-center pl-20 w-2/3">
+                            <summary class="p-4 text-white text-xl font-bold ">
+                                IFMSA
+                            </summary>
+                            <p class="p-4 pt-4 bg-gray-300 text-sm rounded-lg">
+                                Although our curriculum encourages a strong and essential emphasis on theoretical knowledge,
+                                many students find that their practical skills go neglected until it is too late. This new society aims to tackle the following weak points:
+                                <br/><br/>
+                                <ul>
+                                    <li><strong>1)</strong> Patient history taking (Cambridge-Calgary method)</li>
+                                    <li><strong>2)</strong> Physical Examination - including all main blocks taught in the hospital and different specific techniques for physical examination e.g Neurological and Cardiological examination techniques</li>
+                                    <li><strong>3)</strong> Working with dignity and professionalism</li>
+                                    <li><strong>4)</strong> Clinical investigations</li>
+                                    <li><strong>5)</strong> Procedural perfection</li>
+                                    <li><strong>6)</strong> The correct attitude to adopt as a doctor</li>
+                                    <li><strong>7)</strong> OSCE examination style</li>
+                                </ul>
+                                
+                            </p>
+                        </details>
+                    </div>
+                    {/* Erasmus */}
+                    <div class="flex pb-8">
+                    <div class="bg-clear">
+                            <div class="relative bg-white rounded-full">
+                                <div class="absolute z-10 bg-white filter rounded-full text-3xl p-3 flex text-center inline-flex items-center justify-center ">
+                                 <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <div class="absolute text-white bg-white filter blur rounded-full text-3xl p-3 flex text-center inline-flex items-center justify-center ">
+                                <i class="fas fa-balance-scale"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <details class="flex self-center pl-20 w-2/3">
+                            <summary class="p-4 text-white text-xl font-bold ">
+                                Erasmus
+                            </summary>
+                            <p class="p-4 pt-4 bg-gray-300 text-sm rounded-lg">
+                                Although our curriculum encourages a strong and essential emphasis on theoretical knowledge,
+                                many students find that their practical skills go neglected until it is too late. This new society aims to tackle the following weak points:
+                                <br/><br/>
+                                <ul>
+                                    <li><strong>1)</strong> Patient history taking (Cambridge-Calgary method)</li>
+                                    <li><strong>2)</strong> Physical Examination - including all main blocks taught in the hospital and different specific techniques for physical examination e.g Neurological and Cardiological examination techniques</li>
+                                    <li><strong>3)</strong> Working with dignity and professionalism</li>
+                                    <li><strong>4)</strong> Clinical investigations</li>
+                                    <li><strong>5)</strong> Procedural perfection</li>
+                                    <li><strong>6)</strong> The correct attitude to adopt as a doctor</li>
+                                    <li><strong>7)</strong> OSCE examination style</li>
+                                </ul>
+                                
+                            </p>
+                        </details>
+                    </div>
                 </div>
                 <div>
 
