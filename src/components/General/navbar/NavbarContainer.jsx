@@ -16,7 +16,7 @@ const NavbarContainer = (props) => {
     const showMenu = useSelector((state) => state.menuActive);
 
     return(
-        <div className = {showMenu ? 'navbar-container-active' :'navbar-container-inactive'}>
+        <div className = {showMenu ? 'navbar-container-inactive':'navbar-container-active'}>
             <ul>
                 <li><NavItem navItem = 'Your Union' path='yourunion'/>
                     <ul>
