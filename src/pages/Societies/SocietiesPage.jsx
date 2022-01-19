@@ -2,6 +2,7 @@ import React from 'react';
 import Footercontainer from '../../components/General/footer/FooterContainer';
 import HeaderContainer from '../../components/General/Header/HeaderContainer';
 import NavbarContainer from '../../components/General/navbar/NavbarContainer';
+import SocietiesPageBody from '../../components/Societies/SocietiesPageBody';
 
 const SocietiesPage
  = () => {
@@ -9,7 +10,7 @@ const SocietiesPage
         <div>
             <HeaderContainer/>
             <NavbarContainer/>
-            <h1>Under construction</h1>
+            <SocietiesPageBody/>
             <Footercontainer/>
         </div>
     )
