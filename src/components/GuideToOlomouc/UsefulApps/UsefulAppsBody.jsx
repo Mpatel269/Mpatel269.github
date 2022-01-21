@@ -14,20 +14,20 @@ const UsefulAppsBody = () => {
                     <div class="w-10/12">
                         <div class={openTab === 1? "block" : "hidden"} id="link1">
                             <div class="flex flex-row bg-gray-100 ">
-                                <img src="https://images.unsplash.com/photo-1572376390533-dca20771dc30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Vza3klMjBrcnVtbG92fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5zdGFncmFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                                 <div class="flex flex-col">
-                                    <p class="self-center font-semibold pt-8">Title</p>
-                                    <p class="self-center p-8 text-center">text about area of interest e.g prague is situated in the western region of the czech republic. it can be accessed from olomouc by train and coach. Here are a list of things that you can do there:</p>
+                                    <p class="self-center font-semibold pt-8">App Name</p>
+                                    <p class="self-center p-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto vitae necessitatibus nemo quis corrupti tempore eius, voluptatum accusamus alias pariatur, sapiente neque iusto aliquid praesentium assumenda maxime suscipit temporibus!</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class={openTab === 2? "block" : "hidden"} id="link2">
                             <div class="flex flex-row bg-gray-100 ">
-                                <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJhZ3VlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMGRlbGl2ZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                                 <div class="flex flex-col">
-                                    <p class="self-center font-semibold pt-8">Title</p>
-                                    <p class="self-center p-8 text-center">text about area of interest e.g prague is situated in the western region of the czech republic. it can be accessed from olomouc by train and coach. Here are a list of things that you can do there:</p>
+                                    <p class="self-center font-semibold pt-8">App Name</p>
+                                    <p class="self-center p-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at voluptatibus nostrum ipsa, provident vitae iure hic delectus voluptas quia, blanditiis ut, dolor debitis velit assumenda dolores neque saepe doloribus!</p>
                                 </div>
                             </div>
                         </div>
@@ -35,10 +35,10 @@ const UsefulAppsBody = () => {
                         
                         <div class={openTab === 3? "block" : "hidden"} id="link3">
                             <div class="flex flex-row bg-gray-100 ">
-                                <img src="https://images.unsplash.com/photo-1592838530410-6d5867c196d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGN6ZWNoJTIwcmVwdWJsaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <img src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
                                 <div class="flex flex-col">
-                                    <p class="self-center font-semibold pt-8">Title</p>
-                                    <p class="self-center p-8 text-center">text about area of interest e.g prague is situated in the western region of the czech republic. it can be accessed from olomouc by train and coach. Here are a list of things that you can do there:</p>
+                                    <p class="self-center font-semibold pt-8">App Name</p>
+                                    <p class="self-center p-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at voluptatibus nostrum ipsa, provident vitae iure hic delectus voluptas quia, blanditiis ut, dolor debitis velit assumenda dolores neque saepe doloribus!</p>
                                 </div>
                             </div>
                         </div>
@@ -46,10 +46,10 @@ const UsefulAppsBody = () => {
 
                         <div class={openTab === 4? "block" : "hidden"} id="link4">
                             <div class="flex flex-row bg-gray-100 ">
-                                <img src="https://images.unsplash.com/photo-1584900935944-961e0d298694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGF0cmFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <img src="https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1lZGl0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
                                 <div class="flex flex-col">
-                                    <p class="self-center font-semibold pt-8">Title</p>
-                                    <p class="self-center p-8 text-center">text about area of interest e.g prague is situated in the western region of the czech republic. it can be accessed from olomouc by train and coach. Here are a list of things that you can do there:</p>
+                                    <p class="self-center font-semibold pt-8">App Name</p>
+                                    <p class="self-center p-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at voluptatibus nostrum ipsa, provident vitae iure hic delectus voluptas quia, blanditiis ut, dolor debitis velit assumenda dolores neque saepe doloribus!</p>
                                 </div>
                             </div>
                         </div>
