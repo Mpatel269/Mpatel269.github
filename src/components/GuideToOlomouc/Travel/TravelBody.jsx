@@ -68,13 +68,6 @@ const TravelBody = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Travel card section */}
-            <div>
-                <div>
-                    div
-                </div>
-            </div>
         </div>
     )
 };
