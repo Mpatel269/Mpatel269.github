@@ -4,21 +4,24 @@ const PeerMentorBody = () => {
     return(
         <div class="">
             <div class="flex flex-col">
-                <div class="">
-                    <h1 class="">Peer Mentoring at Palacky</h1>
-                </div>
+                
                 <div class="flex flex-row">
                     <div class="flex flex-col w-1/2 items-center justify-center">
-                        <div class="p-4 font-semibold">
-                            <p>This is information about peer mentor program at palacky</p>
+                        <div class="p-4 font-semibold text-xl">
+                            <p>Peer Mentoring at Palacky:</p>
                         </div>
-                        <div class="p-2">
-                            <p>More information about peer mentor program</p>
+                        <div class="p-6 px-12 text-center">
+                            <p>For many years, the fantastic success emulated by the students of
+                                 Palacky has been down to key knowledge and communication between
+                                  the upper and lower years regardless of race, creed or culture. 
+                                 </p>
                         </div>
-                        <div class="p-2">
-                            <p>Even more information about peer mentor program</p>
+                        <div class="p-6 px-12 text-center">
+                            <p> Palacky prides itself on the cohesive network that we are and we 
+                                  hope to further cement the bonds of our programme through the 
+                                 buddy system</p>
                         </div>
-                        <div class="p-2">
+                        <div class="p-2 font-semibold text-lg">
                             <p>Interested in being a mentor?</p>                            
                         </div>
                         <div class="p-2"> 
